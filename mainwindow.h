@@ -32,7 +32,9 @@ private slots:
 
     void on_actionAbout_QT_triggered();
 
-private:
+    void on_actionSettings_triggered();
+
+public:
     Ui::MainWindow *ui;
 };
 

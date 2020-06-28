@@ -26,6 +26,14 @@ private slots:
 
     void on_refreshButton_clicked();
 
+    void on_webView_urlChanged(const QUrl &arg1);
+
+    void on_webView_loadStarted();
+
+    void on_ApplyHome_clicked();
+
+    void on_HomeButton_clicked();
+
 private:
     Ui::Browser *ui;
 };
