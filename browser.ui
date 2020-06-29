@@ -20,7 +20,7 @@
       <enum>QTabWidget::Triangular</enum>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <property name="elideMode">
       <enum>Qt::ElideNone</enum>
@@ -47,7 +47,7 @@
          <property name="title">
           <string>QT Cat</string>
          </property>
-         <widget class="QWidget" name="">
+         <widget class="QWidget" name="layoutWidget">
           <property name="geometry">
            <rect>
             <x>11</x>
@@ -154,7 +154,7 @@
         <item>
          <widget class="QRadioButton" name="GoogleradioB">
           <property name="text">
-           <string>Google</string>
+           <string>&amp;Google</string>
           </property>
          </widget>
         </item>
@@ -168,14 +168,14 @@
         <item>
          <widget class="QRadioButton" name="BingRadioB">
           <property name="text">
-           <string>Bing</string>
+           <string>Bi&amp;ng</string>
           </property>
          </widget>
         </item>
         <item>
          <widget class="QRadioButton" name="YahooRadioB">
           <property name="text">
-           <string>Yahoo</string>
+           <string>&amp;Yahoo</string>
           </property>
          </widget>
         </item>
