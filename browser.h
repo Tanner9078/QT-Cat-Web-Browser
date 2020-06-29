@@ -2,6 +2,7 @@
 #define BROWSER_H
 
 #include <QWidget>
+#include <QFontDialog>
 
 namespace Ui {
 class Browser;
@@ -33,6 +34,10 @@ private slots:
     void on_ApplyHome_clicked();
 
     void on_HomeButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
 
 private:
     Ui::Browser *ui;

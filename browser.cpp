@@ -74,3 +74,24 @@ void Browser::on_HomeButton_clicked()
 {
     ui->webView->load(HomeUrl);
 }
+
+void Browser::on_pushButton_2_clicked()
+{
+    if (ui->RoundTabRadioB->isChecked()) {
+        ui->tabWidget->setTabShape(QTabWidget::Rounded);
+    }
+    if (ui->TriTabRadioB->isChecked()) {
+        ui->tabWidget->setTabShape(QTabWidget::Triangular);
+    }
+}
+
+void Browser::on_pushButton_3_clicked()
+{
+    bool ok;
+
+    QFont font = QFontDialog::getFont(&ok, QFont("Noto Sans"), this);
+
+    if(ok ) {
+        QApplication::setFont(font);
+    }
+}
