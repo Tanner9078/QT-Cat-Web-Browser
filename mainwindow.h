@@ -28,12 +28,6 @@ private slots:
 
     void on_pushButton_2_clicked();
 
-    void on_backButton_clicked();
-
-    void on_actionAbout_QT_triggered();
-
-    void on_actionSettings_triggered();
-
 public:
     Ui::MainWindow *ui;
 };

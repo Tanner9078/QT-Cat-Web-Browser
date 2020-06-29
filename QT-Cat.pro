@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2020-06-27T16:26:19
+# Project created by Tanner9078 2020-06-27T16:26:19
 #
 #-------------------------------------------------
 
@@ -31,7 +31,8 @@ SOURCES += \
 
 HEADERS += \
         mainwindow.h \
-    browser.h
+    browser.h \
+    settings.h
 
 FORMS += \
         mainwindow.ui \
